@@ -60,5 +60,47 @@ public class Main {
         System.out.println(
                 "В школе, где " + numClasses + " классов, нужно " + numClasses * 2 + " банок белой краски и " + numClasses  * 4 + " банок коричневой краски"
         );
+        /* Task 6 */
+        short banansWeight = 5 * 80 ;
+        short milkWeight = 200 / 100 * 105 ;
+        short icecreamWeight = 2 * 100 ;
+        short eggsWeight = 4 * 70 ;
+        short coctailWeight = (short) (banansWeight + milkWeight + icecreamWeight +  eggsWeight);
+        System.out.println(
+                "Вес спортивного коктейля " + coctailWeight  + " грамм или " + coctailWeight / 1000 + " килограмм ! "
+        );
+
+        /* Task 7 */
+        short deltaWeight = 7 * 1000 ;
+        short firstDelta = 500;
+        short secondDelta = 250;
+        short avgDelta = (short) ((firstDelta + secondDelta) / 2  );
+        float avgDays =  (float) deltaWeight / ((firstDelta + secondDelta) / 2);
+        System.out.println(
+                "Вес спортсмена уменьшится на " + deltaWeight + " грамм за " + deltaWeight / firstDelta   + " дней , если он будет худеть по " + firstDelta + " грамм в день \n"
+             +  "Вес спортсмена уменьшится на " + deltaWeight + " грамм за " + deltaWeight / secondDelta   + " дней , если он будет худеть по " + secondDelta + " грамм в день \n"
+             +  "Вес спортсмена уменьшится на " + deltaWeight + " грамм за " + (double) avgDays + " дней , если он будет худеть по " + avgDelta + " грамм в день \n"
+        );
+
+        /* Task 8 */
+        int currSalary ;
+        int newSalary ;
+        currSalary = 67760;
+        newSalary = currSalary / 100 * 110 ;
+        System.out.println(
+                "Маша теперь получает " + newSalary  +  " рублей. Годовой доход вырос на " + (newSalary - currSalary) * 12   + " рублей\n"
+        );
+        currSalary = 83690;
+        newSalary = currSalary / 100 * 110 ;
+        System.out.println(
+                "Денис теперь получает " + newSalary  +  " рублей. Годовой доход вырос на " + (newSalary - currSalary) * 12   + " рублей\n"
+        );
+        currSalary = 76230;
+        newSalary = currSalary / 100 * 110 ;
+        System.out.println(
+                "Кристина теперь получает " + newSalary  +  " рублей. Годовой доход вырос на " + (newSalary - currSalary) * 12   + " рублей\n"
+        );
+
+        /*  End  */
     }
 }
