@@ -55,11 +55,10 @@ public class Main {
               + "За 1 месяц машины произвела бутылок " +  bottlePerMinute * 30*24*60 +" штук \n"
         );
 
-        /* за
-в
-
- */
-
     /* Task 5 */
+        byte numClasses = 120 / (2+ 4);
+        System.out.println(
+                "В школе, где " + numClasses + " классов, нужно " + numClasses * 2 + " банок белой краски и " + numClasses  * 4 + " банок коричневой краски"
+        );
     }
 }
