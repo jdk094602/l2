@@ -75,7 +75,7 @@ public class Main {
         short firstDelta = 500;
         short secondDelta = 250;
         short avgDelta = (short) ((firstDelta + secondDelta) / 2  );
-        float avgDays =  (float) deltaWeight / ((firstDelta + secondDelta) / 2);
+        float avgDays =  (float) deltaWeight / ( (float)(firstDelta + secondDelta) / 2);
         System.out.println(
                 "Вес спортсмена уменьшится на " + deltaWeight + " грамм за " + deltaWeight / firstDelta   + " дней , если он будет худеть по " + firstDelta + " грамм в день \n"
              +  "Вес спортсмена уменьшится на " + deltaWeight + " грамм за " + deltaWeight / secondDelta   + " дней , если он будет худеть по " + secondDelta + " грамм в день \n"
